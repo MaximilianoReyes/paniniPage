@@ -1,0 +1,342 @@
+body {
+    height: 100%;
+    margin: 0;
+    background-color: rgb(242, 245, 250);
+}
+
+h1, h2, h3, h4, p, li, button{
+    font-family: "Noto Sans TC", sans-serif;
+}
+
+input::placeholder {
+    color: rgb(182, 182, 182) ;
+    font-size: medium;
+}
+
+ul, ol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+    list-style-type: none;
+}
+
+hr {
+    border: 1px solid rgb(1, 41, 109);
+    margin: 40px 125px 10px 125px;
+}
+
+.sticky-position {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(242, 245, 250);
+    height: 100px;
+    width: 100%;
+}
+
+.search input {
+    height: 35px;
+    width: 550px;
+    margin-right: 10px;
+    padding-left: 15px;
+    outline-color: rgb(205, 205, 205);
+    border-radius: 6px;
+    border: 1px solid rgb(200, 198, 198);
+}
+
+.btn-search {
+    color: rgb(55, 55, 55);
+    background: none;
+    border: none;
+    margin: 0 10px;
+    font-size: medium;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.navigation { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(1, 41, 109);
+    height: 42px;
+    width: 100%;
+}
+
+.navigation-categories {
+    color: aliceblue;
+    font-size: 14px;
+    font-weight: bolder;
+    padding: 0 1vw;
+    height: 100%;
+    white-space: nowrap;
+}
+
+.carousel {
+    position: relative;
+    height: 350px;
+    width: 100%;
+}
+
+.carousel-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.benefits {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 110px;
+}
+
+.section-categories {
+    height: 220px;
+    width: 100%;
+    background-color: rgb(1, 41, 109);
+}
+
+.main-section {
+    margin: 0 40px;
+}
+
+.categorie {
+    color: aliceblue;
+    font-size: larger;
+    margin-top: 30px;
+    padding: 20px 8.2vw; /* El tipo vw hace que el tamaño sea*/
+    border-bottom: 1px solid aliceblue;
+    white-space: nowrap; /* Evita el salto de linea */
+}
+
+.categorie-img {
+    display: block;
+    margin: -100px auto 0 auto;
+    height: auto;
+    max-width: 100%;
+}
+
+.products-section {
+}
+
+.product {
+    margin: 0 10px;
+    margin-bottom: 20px;
+    height: 520px;
+    width: 235px;
+}
+
+.product-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 332px;
+    width: 235px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.product-img img {
+    height: 220px;
+    width: 80%;
+}
+
+.product-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 190px;
+}
+
+.product-content p {
+    height: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.btn-product {
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    font-weight: bold;
+    background-color: rgb(64, 195, 81);
+    height: 50px;
+    width: 100%;
+}
+
+.recomendation-section {
+    background-color: rgb(1, 41, 109);
+    height: 460px;
+    width: 100%;
+}
+
+
+.recomendation-area{
+    display: flex;
+    justify-content: center;
+    border: 1px solid aliceblue;
+}
+
+.recomendation-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    width: 425px;
+    padding: 80px 50px 80px 20px;
+    /* border: 1px solid aliceblue; */
+}
+
+.recomendation-content-space {
+    height: 300px;
+    width: 425px;
+    /* border: 1px solid aliceblue; */
+}
+
+.price-cart {
+    display: flex;
+    justify-content: space-between; /* Espacio entre el h3 y el botón */
+    align-items: center; /* Alinea verticalmente los elementos */
+    margin-top: 20px; /* Espacio entre el contenido anterior y este bloque */
+}
+
+.recomendation-img-space {
+    height: 300px;
+    width: 800px;
+    padding: 80px 0;
+    /* border: 1px solid aliceblue; */
+}
+
+.recomendation-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 225px;
+    margin: 0px 10px;
+    /* border: 1px solid aliceblue; */
+}
+
+.recomendation-img img {
+    height: 100%;
+    width: 100%;
+}
+
+.center-img {
+    opacity: 1;
+}
+
+.side-img {
+    opacity: 0.5;
+}
+
+.subscribe-section {
+    height: 280px;
+    width: 100%;
+    background-color: rgb(1, 41, 109);
+}
+
+.conector {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe-content {    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding: 5px ;
+    text-align: center;
+}
+
+.subscribe-form {
+    display: flex;
+    flex-direction: column;;
+}
+
+.subscribe-content h2 {
+    color: rgb(215, 239, 30);
+    margin: 10px 0 5px 0
+}
+
+.subscribe-content h3 {
+    color: aliceblue;
+    margin: 5px 0 10px 0
+}
+
+.subscribe-content input {
+    height: 40px;
+    width: 325px;
+    outline-color: rgb(205, 205, 205);
+    border-radius: 6px;
+    border: 1px solid rgb(200, 198, 198);
+    background: none;
+    margin: 5px;
+    padding-left: 15px;
+}
+
+.subscribe-content button {
+    font-size: medium;
+    font-weight: bold;
+    background-color: rgb(215, 239, 30);
+    margin: 10px 5px;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+
+.sub-conector {
+    height: 100%;
+    width: 200px;
+    /* border: 1px solid aliceblue; */
+    margin: 0px 10px;
+}
+
+.sub-conector ul {
+    text-align: left;
+    align-items: normal;
+    flex-direction: column;
+    font-size: small;
+    white-space: nowrap;
+}
+
+.sub-conector li {
+    color: aliceblue;
+    margin-top: 20px;
+    margin-left: 5px;
+    white-space: nowrap;
+}
+
+.end-space {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.end-space li {
+    font-size: x-large;
+    margin: 0 10px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 14px;
+    margin: 20px;
+}
